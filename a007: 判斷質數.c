@@ -31,11 +31,11 @@ int tableSearch(unsigned int number);
 
 int main()
 {
-    for(unsigned int i=2;i<=SIZE;i++)
-        tableNumberOrdered[i]=1;
-
     tableNumberOrdered[0]=0;
     tableNumberOrdered[1]=0;
+    
+    for(unsigned int i=2;i<=SIZE;i++)
+        tableNumberOrdered[i]=1;
 
     for(unsigned int i=2;i<=SIZE;i++)
         if(tableNumberOrdered[i]==1)
