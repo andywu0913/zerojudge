@@ -18,7 +18,7 @@
  * 數論 質數
  * 出處:
  * 海豚原创 (管理：)
- */
+ */ 
 
 #include<stdio.h>
 #define SIZE 4472
