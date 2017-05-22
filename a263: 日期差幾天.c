@@ -77,6 +77,7 @@ int accumulateMonth(int month,int year)
     }
     return result;
 }
+
 int isSpecialYear(int year)
 {
     if(year%400==0 || (year%4==0 && year%100!=0))
