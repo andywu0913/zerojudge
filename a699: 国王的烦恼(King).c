@@ -23,7 +23,6 @@ int main(void)
 	int num;
 	while(scanf("%d", &num) != EOF)
 	{
-
 		if(primeTable[num] == 1)
 			printf("It's a prime!!!\n");
 		else
